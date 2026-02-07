@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profiterole Heaven</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background-color: #fff7f2;
+            color: #3b2f2f;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #8b4513, #d2691e);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+            header h1 {
+                font-size: 3rem;
+                margin-bottom: 10px;
+            }
+
+            header p {
+                font-size: 1.2rem;
+            }
+
+        nav {
+            background-color: #3b2f2f;
+            padding: 10px;
+            text-align: center;
+        }
+
+            nav a {
+                color: white;
+                margin: 0 15px;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+                nav a:hover {
+                    text-decoration: underline;
+                }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+            .card h3 {
+                margin-top: 10px;
+            }
+
+            .card p {
+                font-size: 0.95rem;
+            }
+
+        footer {
+            background-color: #3b2f2f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        button {
+            background-color: #d2691e;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+            button:hover {
+                background-color: #b85c1a;
+            }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Profiterole Heaven</h1>
+        <p>Where crispy choux meets creamy dreams 🍮</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#flavors">Flavors</a>
+        <a href="#design">Design</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Profiteroles</h2>
+        <p>
+            Profiteroles are light choux pastry balls filled with cream and topped
+            with chocolate sauce. This website is a demo project for practicing
+            HTML and CSS design using a delicious theme.
+        </p>
+    </section>
+
+    <section id="flavors">
+        <h2>Popular Flavors</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Classic Vanilla</h3>
+                <p>Light vanilla cream with rich chocolate sauce.</p>
+                <button>Learn More</button>
+            </div>
+
+            <div class="card">
+                <h3>Chocolate Dream</h3>
+                <p>Chocolate-filled profiteroles for true cocoa lovers.</p>
+                <button>Learn More</button>
+            </div>
+
+            <div class="card">
+                <h3>Strawberry Bliss</h3>
+                <p>Fresh strawberry cream with a sweet glaze.</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="design">
+        <h2>Design & Development</h2>
+        <p>
+            This page uses:
+        </p>
+        <ul>
+            <li>HTML5 semantic elements</li>
+            <li>CSS Grid & Flexbox</li>
+            <li>Responsive layout</li>
+            <li>Warm dessert-inspired colors</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2026 Profiterole Heaven | Designed for learning & creativity</p>
+    </footer>
+
+</body>
+</html>
